@@ -1,0 +1,30 @@
+* {
+    font-family: "Segoe UI";
+}
+
+header {
+    color: darkred;
+    text-align: center;
+    font-size: 30px;
+    text-decoration-line: underline;
+}
+
+section {
+    background-color: beige;
+    text-align: center;
+    margin-top: -15px;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: saturate(0);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+a:hover img {
+    filter: saturate(1);
+}
