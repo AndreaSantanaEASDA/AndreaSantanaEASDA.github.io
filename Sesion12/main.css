@@ -1,6 +1,10 @@
 * {
-    font-family: Arial, Helvetica, Verdana, Futura;
-    background-color: gainsboro;
+    background-color: #F5F5F5;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fuente1.ttf);
 }
 
 header {
@@ -9,15 +13,17 @@ header {
 }
 
 h1 {
+    font-family: fuente1;
     font-size: 50px;
-    font-weight: bolder;
     text-decoration: underline;
+    font-weight: lighter;
     padding-top: -50px;
     margin-bottom: -5px;
 }
 
 
 h2 {
+    font-family: fuente1;
     font-size: 30px;
     text-align: center;
     font-weight: lighter;
@@ -25,7 +31,16 @@ h2 {
     color: #262520;
 }
 
+h3 {
+    font-family: fuente1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    color: #262520;
+}
+
 h4 {
+    font-family: fuente1;
     font-size: 20px;
     text-align: center;
     color: #262520;
@@ -35,6 +50,7 @@ h4 {
 }
 
 p {
+    font-family: fuente1;
     font-size: 15px;
     text-align: center;
     color: #262520;
@@ -45,36 +61,42 @@ p {
 
 section {
     text-align: center;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+
+#box {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
 }
 
 img {
-    width: 25%;
+    width: 80%;
     height: auto;
     filter: saturate(0);
     padding: 10px;
-    
+    align-content: center;
 }
 
 a:hover img {
     filter: saturate(1);
 }
 
-
-h3 {
-    font-size: 30px;
-    text-align: center;
-    font-weight: lighter;
-    color: #262520;
-}
-
 footer {
+    font-family: fuente1;
     font-size: 20px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #262520;
 }
-
 
 .link {
     color: #262520;
