@@ -29,12 +29,14 @@ h2 {
     font-weight: lighter;
     padding-top: -30px;
     color: #262520;
+
 }
 
 h3 {
     font-family: fuente1;
     font-size: 30px;
     text-align: center;
+    margin-top: 60px;
     font-weight: lighter;
     color: #262520;
 }
@@ -62,11 +64,7 @@ p {
 section {
     text-align: center;
     height: 350px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    overflow: auto;
-    justify-content: center;
+    align-items: center;
 }
 
 #box {
@@ -75,6 +73,8 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     overflow: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -82,7 +82,7 @@ img {
     height: auto;
     filter: saturate(0);
     padding: 10px;
-    align-content: center;
+    align-items: center;
 }
 
 a:hover img {
@@ -93,6 +93,7 @@ footer {
     font-family: fuente1;
     font-size: 20px;
     text-align: center;
+    margin-top: 80px;
     padding-top: 50px;
     padding-bottom: 50px;
     color: #262520;
