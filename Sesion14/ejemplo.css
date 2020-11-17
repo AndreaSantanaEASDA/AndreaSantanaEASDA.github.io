@@ -11,9 +11,8 @@ body {
     margin-top: -40px;
 }
 
-#menusticky {
+#cabecera {
     margin-bottom: -15px;
-    position: sticky;
     top: 0;
     width: auto;
     height: 40px;
@@ -26,6 +25,7 @@ body {
     color: grey;
     margin: 0 20px 0 10px;
     float: left;
+    position: fixed;
 }
 
 #menu {
@@ -58,6 +58,7 @@ ul.enlaces li {
 
 #links {
     padding: 0 0 200px 300px;
+    margin-top: -100px;
 }
 
 h1 {
@@ -90,16 +91,18 @@ h3 {
 }
 
 #pie {
-    color: gray;
+    background-color: grey;
     display: block;
     padding-left: 300px;
+    margin-left: -400px;
 }
 
 ul.infoextra {
     color: whitesmoke;
     font-size: 15pt;
-    line-height: 30pt;
+    line-height: 50pt;
     padding: 100px 0;
+    margin-left: 100px;
 }
 
 ul {
