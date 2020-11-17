@@ -11,41 +11,61 @@ body {
     margin-top: -40px;
 }
 
+
+
 #cabecera {
-    margin-bottom: -15px;
-    top: 0;
+    margin-bottom: -200px;
+    top: left;
     width: auto;
     height: 40px;
     padding: 4px 0 4px 0;
-    background-color: grey;
 }
 
-#menusticky li {
+#cabecera li {
     display: inline;
     color: grey;
     margin: 0 20px 0 10px;
-    float: left;
-    position: fixed;
+    float: 0;
 }
 
-#menu {
-    padding: 20px 0 0 300px;
-    position: sticky;
+.menu {
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: fixed;
+    margin-top: -30px;
+}
+
+
+#milista li {
+    display: inline-block;
+    padding: 30px;
+
 }
 
 ul.enlaces li {
     display: inline-block;
-    padding: 0 40px 0 0;
+    padding: 0 10px 0 0;
+    margin-left: 300px;
 }
 
-.sticky {
-    display: block;
-}
-
-.sticky:hover li {
+.mover {
     position: relative;
-    left: 1%;
+    transform: translate(15%);
+    transition: left 1s, transform 1s;
 }
+
+.mover {
+    text-decoration-color: antiquewhite;
+    font-family: Helvetica Neue, sans-serif;
+    padding-left: 100px;
+}
+
+.mover:hover {
+    left: 50px;
+}
+
 
 #titulos {
     padding: 0 0 80px 300px;
