@@ -12,7 +12,6 @@
     position: relative;
 }
 
-
 h1 {
     font-weight: normal;
     color: black;
@@ -135,9 +134,7 @@ ul {
     flex-direction: row;
     align-items: center;
     margin-top: -40px;
-
 }
-
 
 .crear p3 {
     margin-left: 0px;
@@ -157,7 +154,6 @@ h2 {
     text-decoration: underline;
 }
 
-
 .pie {
     position: relative;
 }
@@ -172,7 +168,6 @@ h2 {
     width: 100%;
     height: 20px;
     z-index: 15;
-
 }
 
 
@@ -186,7 +181,6 @@ span.amarillo {
     display: inline;
     font-size: 15px;
     margin-left: 40px;
-
 }
 
 a.linkpie {
