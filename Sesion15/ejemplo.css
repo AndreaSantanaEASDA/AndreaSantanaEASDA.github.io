@@ -3,10 +3,13 @@
     margin: 0;
 }
 
-header {
+.pagina {
     background: url(imgs/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 800px;
+    margin: 0, auto, 0, auto;
+    position: relative;
 }
 
 
@@ -89,6 +92,28 @@ p5 {
 .imagenlogo {
     margin-top: 0px;
     margin-left: 100px;
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    padding: -7px;
+    margin-left: 900px;
+    opacity: 70%
+}
+
+.menu li {
+    display: inline;
+    padding: 5%;
+}
+
+.menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .boton {
@@ -97,26 +122,113 @@ p5 {
     border-radius: 5px;
 }
 
-.imagenph {
-    margin-top: -60px;
-    margin-left: 830px;
-    padding-top: -60px;
+.cosmos {
+    position: absolute;
+    bottom: 0;
+    top: 500px;
+    right: 200px;
+    width: 35%;
+
 }
 
-.imagenil {
-    margin-top: -50px;
-    margin-left: 1050px;
-    padding-top: -40px;
-}
-
-.imagenrosa {
-    margin-top: -100px;
-    margin-left: 730px;
-}
-
-footer {
-    margin-top: 0px;
-    margin-left: 0px;
-    background-color: #2a2a2a;
+.crear {
+    display: flex;
+    flex-direction: row;
     align-items: center;
+    margin-top: -40px;
+
+}
+
+
+.crear p3 {
+    margin-left: 0px;
+}
+
+.crearimg {
+    margin: 0 1%;
+    margin-top: 40px;
+}
+
+.creartexto {
+    margin-right: 4%;
+}
+
+h2 {
+    margin-left: 0px;
+    text-decoration: underline;
+}
+
+
+.pie {
+    position: relative;
+}
+
+.ofertas {
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 2% 0;
+    background-image: url(imgs/8.png);
+    background-size: cover;
+    width: 100%;
+    height: 20px;
+    z-index: 15;
+
+}
+
+
+.listaofertas {
+    display: inline;
+    margin: 0 1% 0 0%;
+}
+
+span.amarillo {
+    color: #fbcd00;
+    display: inline;
+    font-size: 15px;
+    margin-left: 40px;
+
+}
+
+a.linkpie {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.pie2 {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #2a2829;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    z-index: 0;
+}
+
+.info {
+    display: flex;
+    margin: 2% 2% 2% 2%;
+    flex: 1;
+    flex-direction: row;
+
+}
+
+.info img {
+    margin: 10% 7%;
+    width: 43px;
+    height: 31px;
+}
+
+.info p6 {
+    color: white;
+    font-size: 12px;
+    opacity: 70%;
+    font-weight: lighter;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: normal;
 }
