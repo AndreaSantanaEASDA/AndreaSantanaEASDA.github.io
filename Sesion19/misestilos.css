@@ -128,10 +128,15 @@ div {
 @media only screen and (max-width:620px) {
 
     /* For mobile phones: */
-    .menu,
-    .main {
-        margin-top: -600px;
+    .contenido {
+        flex-direction: column;
+        margin: auto 2vw 3vw 2vw;
+        width: 100%;
     }
+
+    .menu,
+    .main {}
+
     .right {
         width: 100%;
     }
