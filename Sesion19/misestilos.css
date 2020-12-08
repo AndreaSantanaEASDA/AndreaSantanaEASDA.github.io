@@ -156,9 +156,11 @@ div {
 
 
 @media only screen and (max-width:768px) {
+     /* ipad */
     .menu{
         width: 100%;
-        margin-left: -10px;
+        margin-left: -20px;  
+         margin-right: 35px;
         margin-top: -10px;
     }
     .main
@@ -169,7 +171,6 @@ div {
         margin-left: 150px;
         margin-top: 20px;
     }
-
     
     img {
         width: 80%;
