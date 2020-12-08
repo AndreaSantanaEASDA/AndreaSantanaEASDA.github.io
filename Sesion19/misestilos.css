@@ -130,12 +130,14 @@ div {
     /* For mobile phones: */
     .menu{
         width: 100%;
+        margin-left: -100px;
     }
     .main
     {
         width: 100%;
         align-content: center;
         text-align: center;
+        margin-left: -200px;
     }
     .right {
         width: 100%;
