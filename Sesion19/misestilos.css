@@ -129,7 +129,9 @@ div {
 
     /* For mobile phones: */
     .menu,
-    .main,
+    .main {
+        margin-top: -600px;
+    }
     .right {
         width: 100%;
     }
