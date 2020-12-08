@@ -134,10 +134,11 @@ div {
     }
     .main
     {
-        width: 100%;
+        width: 80%;
         align-content: center;
         text-align: center;
         margin-left: -200px;
+        margin-top: 200px;
     }
     .right {
         width: 100%;
