@@ -1,0 +1,17 @@
+* {
+    color: black;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col-sm-4 {
+    background-color: lavender;
+    height:500px;
+}
+
+.col-sm-8 {
+    background-color: lavenderblush;
+    height:500px;
+}
