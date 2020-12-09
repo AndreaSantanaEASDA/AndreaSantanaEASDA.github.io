@@ -1,0 +1,15 @@
+* {
+    color: black;
+}
+
+.container {
+     padding: 20px;
+}
+
+.col-sm-4 {
+    background-color: lavender;
+}
+
+.col-sm-12 {
+    background-color: lightyellow;
+}

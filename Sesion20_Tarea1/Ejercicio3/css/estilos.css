@@ -1,0 +1,22 @@
+* {
+    color: black;
+}
+
+.container {
+    padding: 20px;
+}
+
+.col-sm-4 {
+    background-color: lavender;
+    height: 500px;
+}
+
+.col-sm-8 {
+    background-color: lavenderblush;
+    margin-left: 15px;
+}
+
+.col-sm-12 {
+    background-color: lightyellow;
+    height: 100px;
+}
