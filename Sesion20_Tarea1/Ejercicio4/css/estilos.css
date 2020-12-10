@@ -3,10 +3,15 @@
 }
 
 .container {
-     padding: 20px;
+    padding: 20px;
 }
 
-.col-sm-4 {
+.col-sm-3 {
+    background-color: lavender;
+    height: 500px;
+}
+
+.col-sm-6 {
     background-color: lavender;
     height: 500px;
 }

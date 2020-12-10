@@ -6,10 +6,30 @@
      padding: 20px;
 }
 
-.col-sm-4 {
+.col-sm-6 {
     background-color: lavender;
+   height: 500px;
+    
+}
+
+.col-sm-3 {
+    background-color: lavenderblush;
+   height: 500px;
+    
 }
 
 .col-sm-12 {
     background-color: lightyellow;
+}
+
+#logo{
+    height: 100px;
+}
+
+#contenido{
+    height: 300px;
+}
+
+#pie{
+    height: 50px;
 }

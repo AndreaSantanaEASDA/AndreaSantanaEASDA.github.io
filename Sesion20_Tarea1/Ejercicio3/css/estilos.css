@@ -8,14 +8,27 @@
 
 .col-sm-4 {
     background-color: lavender;
-    height: 500px;
 }
 
 .col-sm-8 {
     background-color: lavenderblush;
+    overflow: auto;
 }
 
 .col-sm-12 {
     background-color: lightyellow;
-    height: 100px;
+    height: 50px;
+}
+
+
+#navegar {
+     height: 500px;
+}
+
+#logo {
+       height: 250px;
+}
+
+#contenido {
+     height: 250px;
 }
