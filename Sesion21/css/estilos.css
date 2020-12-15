@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Times new roman', serif;
+    color: green;
+    font-weight: 300;
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+}
+
+h3 {
+    color: cadetblue;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+body {
+    font-family: sans-serif, Verdana;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.smallg {
+    color: green;
+    font-size: 12px;
+}
+
+.b {
+    color: green;
+}
