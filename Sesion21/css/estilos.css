@@ -13,6 +13,11 @@ h3 {
     color: cadetblue;
 }
 
+h5 {
+    color: black;
+    font-size: 30px;
+}
+
 h4 {
     font-size: 18px;
 }
@@ -32,4 +37,31 @@ body {
 
 .b {
     color: green;
+}
+
+#boton1 {
+    border: outset 1px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#boton1 a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#boton2 a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
