@@ -78,6 +78,9 @@ a:links {
     color: indianred;
 }
 
+#carouselExampleIndicators {
+    background-color: grey;
+}
 
 @media (max-width: 568px) {
     h1 {
