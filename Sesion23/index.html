@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta lang="es">
+    <title>Galería</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div id="cajacookies">
+            <br>
+            Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <br><br>
+            <p5><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar <br></button>
+            </p5>
+        </div>
+        <h1> La historia de la pintura </h1>
+        <br>
+        <br>
+        <br>
+        <div>
+            <video src="videos/movie.mp4" width=320 height=240  controls> Lo sentimos. Este vídeo no puede ser reproducido en tu navegador.<br>
+                La versión descargable está disponible en <a href="https://youtu.be/MFoL4l7e9I8">Enlace</a>.
+            </video>
+        </div>
+    </header>
+    <section>
+        <br>
+        <br>
+        <h2>El Renacimiento </h2>
+        <br>
+        <div id="box">
+            <div class="container">
+                <a href="imagenes/G_imagen2.jpg" target="_blank">
+                    <img alt="Imagen 2" class="image" src="imagenes/P_imagen2.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> La escuela de Atenas </h4>
+                    <p>Rafael Sanzio</p>
+                </div>
+
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen3.jpg" target="_blank">
+                    <img alt="Imagen 3" class="image" src="imagenes/P_imagen3.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> La creación de Adán </h4>
+                    <p>Miguel Ángel</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen4.jpg" target="_blank">
+                    <img alt="Imagen 4" class="image" src="imagenes/P_imagen4.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> Los afrodisíacos</h4>
+                    <p>Sandro Botticelli</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen5.jpg" target="_blank">
+                    <img alt="Imagen 5" class="image" src="imagenes/P_imagen5.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> La Primavera </h4>
+                    <p>Sandro Botticelli</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <br>
+        <h3>El Barroco </h3>
+        <br>
+        <div id="box">
+            <div class="container">
+                <a href="imagenes/G_imagen6.jpg" target="_blank">
+                    <img alt="Imagen 6" class="image" src="imagenes/P_imagen6.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> Las Meninas </h4>
+                    <p>Diego Velázquez</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen7.jpg" target="_blank">
+                    <img alt="Imagen 7" class="image" src="imagenes/P_imagen7.jpg">
+                </a>
+                <div class="overlay">
+                    <h4> Baco </h4>
+                    <p>Pier Francesco Mola</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen8.gif" target="_blank">
+                    <img alt="Imagen 8" class="image" src="imagenes/P_imagen8.gif">
+                </a>
+                <div class="overlay">
+                    <h4> El sacrificio de Isaac </h4>
+                    <p>Caravaggio</p>
+                </div>
+            </div>
+            <div class="container">
+                <a href="imagenes/G_imagen9.gif" target="_blank">
+                    <img alt="Imagen 9" class="image" src="imagenes/P_imagen9.gif">
+                </a>
+                <div class="overlay">
+                    <h4> David vencedor de Goliat </h4>
+                    <p>Caravaggio</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <footer>
+        <p>Creado por <a class="link" href="https://andreasantanaeasda.github.io/">Andrea Santana Sales</a> </p>
+        <div>
+            <a href="imagenes/G_imagen10.png" target="_blank">
+                <img style="width:100px; height:100px;" title="David" alt="Imagen 10" src="imagenes/P_imagen10.png">
+            </a>
+        </div>
+    </footer>
+
+    <script>
+        function compruebaAceptaCookies() {
+            if (localStorage.aceptaCookies == 'true') {
+                cajacookies.style.display = 'none';
+            }
+        }
+
+        function aceptarCookies() {
+            localStorage.aceptaCookies = 'true';
+            cajacookies.style.display = 'none';
+        }
+
+        $(document).ready(function() {
+            compruebaAceptaCookies();
+        });
+
+    </script>
+
+</body>
+
+</html>

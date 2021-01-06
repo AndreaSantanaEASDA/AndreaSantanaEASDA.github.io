@@ -1,0 +1,158 @@
+* {
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fuente1.ttf);
+}
+
+header {
+    color: #262520;
+    text-align: center;
+}
+
+h1 {
+    font-family: fuente1;
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: lighter;
+    padding-top: -50px;
+    margin-bottom: -5px;
+}
+
+
+h2 {
+    font-family: fuente1;
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: -30px;
+    color: #262520;
+
+}
+
+h3 {
+    font-family: fuente1;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 60px;
+    font-weight: lighter;
+    color: #262520;
+}
+
+h4 {
+    font-family: fuente1;
+    font-size: 20px;
+    text-align: center;
+    color: #262520;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+p {
+    font-family: fuente1;
+    font-size: 15px;
+    text-align: center;
+    color: #262520;
+    margin-top: -20px;
+    font-weight: lighter;
+
+}
+
+section {
+    text-align: center;
+    height: 350px;
+    align-items: center;
+}
+
+#box {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    filter: saturate(0);
+    padding: 10px;
+    align-items: center;
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+
+footer {
+    font-family: fuente1;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #262520;
+}
+
+.link {
+    color: #262520;
+}
+
+.link:hover {
+    color: #262520;
+}
+
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.container {
+    position: relative;
+    width: 50%;
+    max-width: 300px;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #F5F5F5;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+#cajacookies {
+    background-color: white;
+    color: #262520;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    top: 50px;
+    width: 100%;
+}
+
+#cajacookies button {
+    color: black;
+    margin-bottom: 10px;
+}
