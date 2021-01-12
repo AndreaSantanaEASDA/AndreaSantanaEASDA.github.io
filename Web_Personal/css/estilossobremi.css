@@ -1,6 +1,6 @@
 div {
     box-sizing: border-box; 
-    font-family: 'Shree Devanagari 714';
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav {
@@ -39,3 +39,7 @@ footer {
     h3 {
         font-size: 150%;
     }
+
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+</style>

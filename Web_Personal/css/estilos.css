@@ -1,6 +1,6 @@
 div {
     box-sizing: border-box; 
-    font-family: 'Shree Devanagari 714';
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav {
@@ -48,4 +48,6 @@ footer {
         font-size: 150%;
     }
 
-    @ font-face {font-family: "Shree Devanagari 714";src: url ("// db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.eot");src: url ("// db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.eot?#iefix") formato ("embedded-opentype"), url ("// db.onlinewebfonts.com/t/d02befc8fbd558e5315f formato ("woff2"), url ("// db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.woff") formato ("woff"), url ("// db.onlinewebfonts.com/t/d02befc8fbd558e5315f) formato ("truetype"), url ("// db.onlinewebfonts.com/t/d02befc8fdd8e5315fb21fa7f38fd55a.svg#Shree Devanagari 714") formato ("svg");}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+</style>
