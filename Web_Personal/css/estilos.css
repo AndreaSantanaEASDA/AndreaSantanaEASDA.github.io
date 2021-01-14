@@ -1,6 +1,8 @@
 div {
     box-sizing: border-box; 
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -48,6 +50,24 @@ footer {
         font-size: 150%;
     }
 
+    
+#cajacookies {
+    background-color: white;
+    color: #262520;
+    padding: 10px;
+    text-align: center;
+    align-content: center;
+    top: 50px;
+    width: 100%;
+}
+
+#cajacookies button {
+    color: black;
+    margin-bottom: 10px;
+}
+
+    
+    
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 </style>

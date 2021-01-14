@@ -1,6 +1,8 @@
 div {
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
@@ -23,7 +25,7 @@ section {
 
 footer {
     background-color: #E6E6E6;
-   align-content: center;
+    align-content: center;
     text-align: center;
 }
 
@@ -40,6 +42,16 @@ footer {
         font-size: 150%;
     }
 
-    <style>
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
-</style>
+    .header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+    <style > @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+    </style >

@@ -84,8 +84,33 @@
             <br>
             <p>Andrea Esse 2020</p>
         </div>
+        <div id="cajacookies">
+            <br>
+            Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <br><br>
+            <p5><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar <br></button>
+            </p5>
+        </div>
         <br>
     </footer>
+    
+     <script>
+        function compruebaAceptaCookies() {
+            if (localStorage.aceptaCookies == 'true') {
+                cajacookies.style.display = 'none';
+            }
+        }
+
+        function aceptarCookies() {
+            localStorage.aceptaCookies = 'false';
+            cajacookies.style.display = 'none';
+        }
+
+        $(document).ready(function() {
+            compruebaAceptaCookies();
+        });
+
+    </script>
+
 </body>
 
 </html>
