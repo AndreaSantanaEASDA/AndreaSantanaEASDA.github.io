@@ -54,10 +54,10 @@ footer {
 #cajacookies {
     background-color: white;
     color: #262520;
-    padding: 10px;
     text-align: center;
-    align-content: center;
-    top: 50px;
+    bottom: 500px;
+    left: 0px;
+    position: absolute;
     width: 100%;
 }
 

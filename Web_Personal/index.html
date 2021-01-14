@@ -19,6 +19,12 @@
 </head>
 
 <body>
+    <div id="cajacookies">
+        <br>
+        Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <br><br>
+        <p5><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar <br></button>
+        </p5>
+    </div>
     <nav class="navbar navbar-expand-md navbar-light nav">
         <a class="navbar-brand" href="index.html">
             <img src="imgs/Logo.png" alt="Logo" style="width:70%; padding-left: 10%;"></a>
@@ -84,16 +90,10 @@
             <br>
             <p>Andrea Esse 2020</p>
         </div>
-        <div id="cajacookies">
-            <br>
-            Utilizamos cookies propias y de terceros para mejorar la experiencia del usuario a través de su navegación. Si continúas navegando aceptas su uso. <br><br>
-            <p5><button onclick="aceptarCookies()" class="pull-right"><i class="fa fa-times"></i> Aceptar y cerrar <br></button>
-            </p5>
-        </div>
         <br>
     </footer>
-    
-     <script>
+
+    <script>
         function compruebaAceptaCookies() {
             if (localStorage.aceptaCookies == 'true') {
                 cajacookies.style.display = 'none';
