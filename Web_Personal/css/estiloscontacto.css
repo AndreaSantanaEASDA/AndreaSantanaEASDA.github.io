@@ -12,9 +12,7 @@ nav {
 
 .nav-link {
     color: #333333;
-
 }
-
 
 .nav-link:hover {
     color: #333333;
@@ -37,11 +35,10 @@ section {
         font-size: 150%;
     }
 
-    body{
-  height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
-}
-
+    body {
+        height: 100%;
+        font-family: 'Noto Sans', sans-serif;
+        background-color: #ab4493;
+    }
 
     @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
